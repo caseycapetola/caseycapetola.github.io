@@ -3,6 +3,7 @@
 // import InfoCard from "../components/InfoCard";
 import headshot from "../assets/headshot.png";
 import resume from "../assets/Capetola_Academic_Vita.pdf";
+import Footer from "../components/Footer";
 
 const MainPage = () => {
   return (
@@ -16,14 +17,14 @@ const MainPage = () => {
             className="rounded-full mx-auto w-30 border-white border-2 justify-center"
           />
         </div>
-        <div className="text-left text-3xl md:text-5xl font-bold">
+        <h1 className="text-left text-3xl md:text-5xl font-bold">
           Casey Capetola
-          <div className="text-sm md:text-3xl font-normal">
+          <h2 className="text-sm md:text-3xl font-normal">
             Associate Software Engineer
-          </div>
-        </div>
+          </h2>
+        </h1>
       </div>
-      <div className="flex gap-2 mb-8 pb-8 justify-center">
+      <div className="flex gap-2 pb-8 justify-center">
         <a href={resume} target="_blank">
           <svg
             className="w-10 h-10 justify-center text-zinc-400 hover:text-white transition-all duration-200 hover:cursor-pointer"
@@ -71,6 +72,37 @@ const MainPage = () => {
           </svg>
         </a>
       </div>
+      <div className="bg-blue-950 text-white">
+        <h3 className="text-sm font-bold m-4 mb-6">About</h3>
+        <div className="m-4 text-xs font-thin">
+          <p className="mb-4">
+            My journey in computer science started from a decision made on a
+            whim in 2018. I always loved math, problem solving, and computers,
+            so I thought, "why not take this intro to Java class?"
+          </p>
+          <p className="mb-4">
+            Many years later, I have completed my Bachelor's in Computer
+            Science, graduating from the Pennsylvania State University (We
+            Are!). As an honors student, a spent considerable time studying and
+            researching in the realm of theoretical computer science. This
+            culminated in a written thesis, which you can read{" "}
+            <a
+              href="https://honors.libraries.psu.edu/catalog/8910cac6748"
+              className="font-bold hover:underline"
+              target="_blank"
+            >
+              here
+            </a>
+            !
+          </p>
+          <p className="mb-4">
+            As a software engineer, my goal is to build technology that can
+            benefit everyday people in their everyday lives.
+          </p>
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 };
