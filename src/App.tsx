@@ -1,9 +1,9 @@
-import ListGroup from "./components/ListGroup";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
-    <div>
-      <ListGroup />
+    <div className="bg-blue-950">
+      <MainPage />
     </div>
   );
 }

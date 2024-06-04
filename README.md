@@ -1,3 +1,15 @@
+# Deployment Stepa
+
+To deploy to GitHub Pages:
+
+```
+git add [FILES]
+git commit -m [COMMIT MESSAGE]
+git push
+npm run predeploy
+npm run deploy
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
