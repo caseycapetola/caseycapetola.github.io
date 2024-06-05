@@ -3,7 +3,6 @@
 // import InfoCard from "../components/InfoCard";
 import headshot from "../assets/headshot.png";
 import resume from "../assets/Capetola_Academic_Vita.pdf";
-import Footer from "../components/Footer";
 
 const MainPage = () => {
   return (
