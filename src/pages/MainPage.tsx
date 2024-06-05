@@ -110,9 +110,32 @@ const MainPage = () => {
           </div>
         </div>
 
-        {/* <div className="bg-blue-950 text-white">
-        <h3 className="text-sm font-bold m-4 mb-6 mt-6">Education</h3>
-      </div> */}
+        <div className="bg-blue-950 text-white">
+          <h3 className="text-sm font-bold m-4 mb-6 mt-6">Experience</h3>
+          <div className="grid grid-cols-6 m-4 gap-y-8">
+            <div className="col-span-2 text-xs font-thin opacity-60">
+              Aug 2024-Present
+            </div>
+            <div className="col-span-4 text-xs">
+              TDP Software Engineer - Capital One
+              <br />
+              <br />
+              <p className="font-thin">TBD</p>
+            </div>
+            <div className="col-span-2 text-xs font-thin opacity-60">
+              Jun 2023-Aug 2023
+            </div>
+            <div className="col-span-4 text-xs">
+              TIP Software Engineer Intern - Capital One
+              <br />
+              <br />
+              <p className="font-thin">
+                Collaborated with a team of interns and engineers to design
+                software to streamline analysis of relevant customer data.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
