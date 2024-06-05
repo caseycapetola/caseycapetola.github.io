@@ -137,7 +137,6 @@ const MainPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
