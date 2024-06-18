@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="bg-blue-950">
       <MainPage />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

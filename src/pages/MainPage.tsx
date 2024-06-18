@@ -134,6 +134,7 @@ const MainPage = () => {
               </p>
             </div>
           </div>
+          <br />
         </div>
       </div>
     </>
