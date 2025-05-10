@@ -119,7 +119,14 @@ const MainPage = () => {
               TDP Software Engineer - Capital One
               <br />
               <br />
-              <p className="font-thin">TBD</p>
+              <p className="font-thin">
+                In the SRE space, I help make compliance simple and effortless
+                for associates. I work with my team to lead tokenization efforts
+                to ensure data is properly secured across the enterprise.
+                <br />I also work on a compliance tool used for collecting
+                evidence of proper data security. The project is built using
+                React, Python, and various AWS services.
+              </p>
             </div>
             <div className="col-span-2 text-xs font-thin opacity-60">
               Jun 2023-Aug 2023
