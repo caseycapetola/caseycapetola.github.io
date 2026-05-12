@@ -2,7 +2,7 @@
 
 // import InfoCard from "../components/InfoCard";
 import headshot from "../assets/headshot.png";
-import resume from "../assets/Capetola_Academic_Vita.pdf";
+import resume from "../assets/Casey_Capetola_Resume.pdf";
 
 const MainPage = () => {
   return (
@@ -113,18 +113,36 @@ const MainPage = () => {
           <h3 className="text-sm font-bold m-4 mb-6 mt-6">Experience</h3>
           <div className="grid grid-cols-6 m-4 gap-y-8">
             <div className="col-span-2 text-xs font-thin opacity-60">
-              Aug 2024-Present
+              Aug 2025-Present
             </div>
             <div className="col-span-4 text-xs">
-              TDP Software Engineer - Capital One
+              TDP Software Engineer - Capital One — Bank Data Standardization
               <br />
               <br />
               <p className="font-thin">
-                In the SRE space, I help make compliance simple and effortless
-                for associates. I work with my team to lead tokenization efforts
-                to ensure data is properly secured across the enterprise.
-                <br />I also work on a compliance tool used for collecting
-                evidence of proper data security. The project is built using
+                I work on data standardization pipelines, efficiently providing
+                our stakeholders with accurate and reliable data. This involves
+                sourcing data from multiple systems of record, transforming it
+                to meet our standards, and ensuring it is properly published and
+                accessible for analysis. This pipeline is built with AWS Lambda
+                (Go), AWS Glue (Python), DynamoDB, Kafka, and various other AWS
+                services.
+              </p>
+            </div>
+            <div className="col-span-2 text-xs font-thin opacity-60">
+              Aug 2024-Aug 2025
+            </div>
+            <div className="col-span-4 text-xs">
+              TDP Software Engineer - Capital One — SRE
+              <br />
+              <br />
+              <p className="font-thin">
+                In the SRE space, I helped make compliance simple and effortless
+                for associates. I worked with my team to lead tokenization
+                efforts to ensure data is properly secured across the
+                enterprise.
+                <br />I also worked on a compliance tool used for collecting
+                evidence of proper data security. The project was built using
                 React, Python, and various AWS services.
               </p>
             </div>

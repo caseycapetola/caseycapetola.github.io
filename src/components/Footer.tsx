@@ -1,4 +1,4 @@
-import resume from "../assets/Capetola_Academic_Vita.pdf";
+import resume from "../assets/Casey_Capetola_Resume.pdf";
 
 const Footer = () => {
   return (

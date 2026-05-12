@@ -1,4 +1,4 @@
-# Deployment Stepa
+# Deployment Steps
 
 To deploy to GitHub Pages:
 
